@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{95E6C4B1-F401-4DCF-B983-9B05593351CC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E0B7F482-60B3-4D06-95AD-1C0A46B3A67D}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "EfCommandSO", "src\EfCommandSO\EfCommandSO.xproj", "{DDAE2D26-976B-4822-B796-A099021B6AF4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DDAE2D26-976B-4822-B796-A099021B6AF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDAE2D26-976B-4822-B796-A099021B6AF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDAE2D26-976B-4822-B796-A099021B6AF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDAE2D26-976B-4822-B796-A099021B6AF4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DDAE2D26-976B-4822-B796-A099021B6AF4} = {95E6C4B1-F401-4DCF-B983-9B05593351CC}
+	EndGlobalSection
+EndGlobal
