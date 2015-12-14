@@ -21,12 +21,12 @@ namespace EfCommandSO.Models
 
         public DbSet<ApiDescriptionBase>            ApiDescriptions { get; set; }
         public DbSet<ApiGroupDescription>           Groups          { get; set; }
-        //public DbSet<ApiMethodSignatureDescription> Methods         { get; set; }
-        //public DbSet<ApiExceptionDescription>       Exceptions      { get; set; }
-        //public DbSet<ApiParameterDescription>       Parameters      { get; set; }
-        //public DbSet<ApiPropertyDescription>        Properties      { get; set; }
-        //public DbSet<ApiCodeSample>                 Examples        { get; set; }
-        //public DbSet<ApiCodeSnippet>                CodeSnippets    { get; set; }
+        public DbSet<ApiMethodSignatureDescription> Methods { get; set; }
+        public DbSet<ApiExceptionDescription>       Exceptions { get; set; }
+        public DbSet<ApiParameterDescription>       Parameters { get; set; }
+        public DbSet<ApiPropertyDescription>        Properties { get; set; }
+        public DbSet<ApiCodeSample>                 Examples { get; set; }
+        public DbSet<ApiCodeSnippet>                CodeSnippets { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
